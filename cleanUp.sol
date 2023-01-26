@@ -3,7 +3,6 @@ pragma solidity ^0.8.9;
 
     uint256 public lastIndex;
 
-    // NOTE: THIS WORKS AND TESTED IS TESTED
     function cleanUp() public {
 
         if (lastIndex == numberOfCampaigns) {
